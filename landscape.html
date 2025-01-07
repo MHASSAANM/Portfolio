@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="scripts.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landscape Photography</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="images/Landscape1.jpg" as="image">
+    <link rel="preload" href="images/Landscape2.jpg" as="image">
+    <link rel="preload" href="images/Landscape3.jpg" as="image">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Landscape Welcome Section -->
+    <section id="home" class="herro">
+        <div class="hero-contentt">
+            <h1>Nature</h1>
+            <p>Landscapes & Wild Life</p>
+            <img src="images/arrow.png" alt="arrow">
+        </div>
+    </section>
+
+    <!-- Landscape Gallery -->
+    <section class="gallery">
+        <div class="gallery-container">
+            <img src="images/Landscape1.jpg" alt="Landscape Image 1" class="gallery-item" onclick="openLightbox(0)">
+            <img src="images/Landscape2.jpg" alt="Landscape Image 2" class="gallery-item" onclick="openLightbox(1)">
+            <img src="images/Landscape3.jpg" alt="Landscape Image 3" class="gallery-item" onclick="openLightbox(2)">
+            <img src="images/Landscape4.jpg" alt="Wildlife Image 3" class="gallery-item" onclick="openLightbox(3)"> 
+            <img src="images/Landscape5.jpg" alt="Wildlife Image 3" class="gallery-item" onclick="openLightbox(4)"> 
+            <img src="images/Landscape6.jpg" alt="Wildlife Image 3" class="gallery-item" onclick="openLightbox(5)"> 
+            <img src="images/Landscape7.jpg" alt="Wildlife Image 3" class="gallery-item" onclick="openLightbox(6)"> 
+            <img src="images/Landscape8.jpg" alt="Wildlife Image 3" class="gallery-item" onclick="openLightbox(7)"> 
+            <img src="images/Landscape9.jpg" alt="Wildlife Image 3" class="gallery-item" onclick="openLightbox(8)"> 
+            <img src="images/Landscape10.jpg" alt="Wildlife Image 3" class="gallery-item" onclick="openLightbox(9)"> 
+            <img src="images/L11.jpeg" alt="Wildlife Image 3" class="gallery-item" onclick="openLightbox(10)"> 
+            <img src="images/L12.jpeg" alt="Wildlife Image 3" class="gallery-item" onclick="openLightbox(11)"> 
+            <img src="images/Landscape13.jpg" alt="Wildlife Image 3" class="gallery-item" onclick="openLightbox(12)"> 
+            <img src="images/Landscape14.jpg" alt="Wildlife Image 3" class="gallery-item" onclick="openLightbox(13)">
+            <img src="images/Landscape15.jpg" alt="Wildlife Image 3" class="gallery-item" onclick="openLightbox(14)">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" style="display: none;">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img id="lightboxImage" alt="Lightbox Image">
+        <button class="lightbox-arrow left" onclick="changeImage(-1)">&larr;</button>
+        <button class="lightbox-arrow right" onclick="changeImage(1)">&rarr;</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Hassaan Majeed. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
