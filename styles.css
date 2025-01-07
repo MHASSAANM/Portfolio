@@ -48,7 +48,7 @@ body {
         }
     p {font-size: 1.5rem;}
     height: 100vh;
-    background: url('D:/PortfolioWebsite/images/pano.jpg') no-repeat center center/cover;
+    background: url('images/pano.jpg') no-repeat center center/cover;
     position: relative;
     color: #ffffff;
     text-align: center;
@@ -84,7 +84,7 @@ body {
     height: 400px;
     margin: 0 1rem;
     /*background: #ddd;*/
-    background: url('D:/PortfolioWebsite/images/L11.jpeg') no-repeat center center/cover;
+    background: url('images/L11.jpeg') no-repeat center center/cover;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -100,7 +100,7 @@ body {
     height: 400px;
     margin: 0 1rem;
     /*background: #ddd;*/
-    background: url('D:/PortfolioWebsite/images/Urban_cover.jpg') no-repeat center center/cover;
+    background: url('images/Urban_cover.jpg') no-repeat center center/cover;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -116,7 +116,7 @@ body {
     height: 400px;
     margin: 0 1rem;
     /*background: #ddd;*/
-    background: url('D:/PortfolioWebsite/images/portrait_cover.jpg') no-repeat center center/cover;
+    background: url('images/portrait_cover.jpg') no-repeat center center/cover;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -334,7 +334,7 @@ body {
         font-weight: lighter;
     }
     height: 100vh;
-    background: url('D:/PortfolioWebsite/images/landscape4.jpg') no-repeat center center/cover;
+    background: url('images/landscape4.jpg') no-repeat center center/cover;
     position: relative;
     color: #ffffff;
     text-align: center;
@@ -366,7 +366,7 @@ body {
     font-weight: lighter;}
     p {font-size: 1.5rem;}
     height: 100vh;
-    background: url('D:/PortfolioWebsite/images/landscape_cover.jpg') no-repeat center center/cover;
+    background: url('images/landscape_cover.jpg') no-repeat center center/cover;
     position: relative;
     color: #ffffff;
     text-align: center;
