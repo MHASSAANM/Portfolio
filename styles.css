@@ -366,7 +366,7 @@ body {
     font-weight: lighter;}
     p {font-size: 1.5rem;}
     height: 100vh;
-    background: url('images/landscape_cover.jpg') no-repeat center center/cover;
+    background: url('images/landscape_cover.webp') no-repeat center center/cover;
     position: relative;
     color: #ffffff;
     text-align: center;
